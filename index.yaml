@@ -1,0 +1,1766 @@
+apiVersion: v1
+entries:
+  abstract-olt:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2023-02-15T12:48:34.943090059Z"
+    description: A Helm chart for SEBA's Abstract OLT layer
+    digest: 0b7bc557bae5486d07ac16f4abbfbd4b72ad568df85fea3e26c5480dfd563a99
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: abstract-olt
+    urls:
+    - https://github.com/wafi981/opencord/docs/abstract-olt-0.1.2.tgz
+    version: 0.1.2
+  accelleran-cbrs-common:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:34.943698791Z"
+    description: A Helm chart to install Accelleran common to run Accelleran CU on
+      CBRS band
+    digest: f5b7ba35e9a50da15dd05387e2ddd9fb0042869cfd914860f14d57ca711b9bf4
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: accelleran-cbrs-common
+    urls:
+    - https://github.com/wafi981/opencord/docs/accelleran-cbrs-common-0.1.2.tgz
+    version: 0.1.2
+  accelleran-cbrs-cu:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:34.944195244Z"
+    description: A Helm chart to install Accelleran CU on CBRS band
+    digest: 8c705852f6dad8705403229448fb551029bb46ef7e23fd2661b0b675e9083aa6
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: accelleran-cbrs-cu
+    urls:
+    - https://github.com/wafi981/opencord/docs/accelleran-cbrs-cu-0.1.8.tgz
+    version: 0.1.8
+  accelleran-cu:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:34.944664046Z"
+    description: A Helm chart to install Accelleran CU
+    digest: cafdb75bf88ca83c095ebe00a073b8d3066d1c8d00d88e3c7697ae1e80c48e63
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: accelleran-cu
+    urls:
+    - https://github.com/wafi981/opencord/docs/accelleran-cu-0.1.2.tgz
+    version: 0.1.2
+  addressmanager:
+  - apiVersion: v1
+    appVersion: 2.0.4
+    created: "2023-02-15T12:48:34.945017402Z"
+    description: A Helm chart for XOS's "addressmanager" service
+    digest: 3b3934fad20faf684b09b667d905a246bac02de640a84a92f77f42bf883f9e80
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: addressmanager
+    urls:
+    - https://github.com/wafi981/opencord/docs/addressmanager-2.0.6.tgz
+    version: 2.0.6
+  att-workflow:
+  - apiVersion: v1
+    appVersion: 1.3.1
+    created: "2023-02-15T12:48:34.945677635Z"
+    dependencies:
+    - name: att-workflow-driver
+      repository: https://charts.opencord.org
+      version: 2.0.0
+    description: A Helm chart for XOS's "att-workflow"
+    digest: 9ce367012c91973f99adbcac40fba514ff79dd57eb0c3771e5ca0b61e934f76d
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: att-workflow
+    urls:
+    - https://github.com/wafi981/opencord/docs/att-workflow-2.0.0.tgz
+    version: 2.0.0
+  att-workflow-driver:
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2023-02-15T12:48:34.94596806Z"
+    description: A Helm chart for XOS's "att-workflow-driver" service
+    digest: 99dfc9b33a4ccad7dee24b8c846bccff902b04751a52897db469a0d9bbffbce0
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: att-workflow-driver
+    urls:
+    - https://github.com/wafi981/opencord/docs/att-workflow-driver-2.0.1.tgz
+    version: 2.0.1
+  azuremonitor-containers:
+  - apiVersion: v1
+    appVersion: 7.0.0-1
+    created: "2023-02-15T12:48:34.946938078Z"
+    deprecated: true
+    description: DEPRECATED Helm chart for deploying Azure Monitor container monitoring
+      agent in Kubernetes
+    digest: c06fdf55b2cb6ca663e2571ba4d7464ad74b72bc08e72d81b965f10e7fc67afc
+    home: https://docs.microsoft.com/en-us/azure/monitoring/monitoring-container-health
+    icon: https://raw.githubusercontent.com/Microsoft/OMS-docker/ci_feature/img/azuremonitor-containers.svg
+    keywords:
+    - monitoring
+    - azuremonitor
+    - azure
+    - oms
+    - containerinsights
+    - metric
+    - event
+    - logs
+    - containerhealth
+    - kubernetesmonitoring
+    - acs-engine
+    - aks-engine
+    - azurestack
+    - openshift v4
+    - azure redhat openshift v4
+    - on-prem kubernetes monitoring
+    - containerlogs
+    - containerhealth
+    - containermonitoring
+    - hybrid kubernetes monitoring
+    - kubernetes
+    - kuberneteshealth
+    kubeVersion: ^1.10.0-0
+    name: azuremonitor-containers
+    sources:
+    - https://github.com/microsoft/Docker-Provider/tree/ci_prod
+    urls:
+    - https://github.com/wafi981/opencord/docs/azuremonitor-containers-2.7.8.tgz
+    version: 2.7.8
+  base-kubernetes:
+  - apiVersion: v1
+    appVersion: 1.3.1
+    created: "2023-02-15T12:48:34.947928868Z"
+    dependencies:
+    - name: kubernetes
+      repository: https://charts.opencord.org
+      version: 2.0.0
+    description: A Helm chart for XOS's "base-kubernetes" profile
+    digest: c1cb120d1e91358e7324c40921384b4447dffe922fd06b1f8092b41777d956b8
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: base-kubernetes
+    urls:
+    - https://github.com/wafi981/opencord/docs/base-kubernetes-2.0.0.tgz
+    version: 2.0.0
+  base-openstack:
+  - apiVersion: v1
+    appVersion: 1.3.0
+    created: "2023-02-15T12:48:34.949282232Z"
+    dependencies:
+    - name: onos-service
+      repository: https://charts.opencord.org
+      version: 2.1.3
+    - name: openstack
+      repository: https://charts.opencord.org
+      version: 1.1.6
+    - name: vtn-service
+      repository: https://charts.opencord.org
+      version: 1.0.4
+    description: A Helm chart for the "base-openstack" profile
+    digest: 4e2bf4ca8383613e946cf606336b35540bb11ba5b0b4583ffdcf27e8d68f48bf
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: base-openstack
+    urls:
+    - https://github.com/wafi981/opencord/docs/base-openstack-0.2.5.tgz
+    version: 0.2.5
+  bbsim:
+  - apiVersion: v1
+    appVersion: 1.12.10
+    created: "2023-02-15T12:48:34.949913639Z"
+    description: Broadband Simulator
+    digest: 85812e06105129a21efdb6ba1d86523b871e4edb3a6b581e49721d67f5541aac
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: bbsim
+    urls:
+    - https://github.com/wafi981/opencord/docs/bbsim-4.8.8.tgz
+    version: 4.8.8
+  bbsim-sadis-server:
+  - apiVersion: v1
+    appVersion: 0.3.4
+    created: "2023-02-15T12:48:34.951449814Z"
+    description: A Helm chart for Voltha BBSIM sadis server
+    digest: a85183f27e7fbbada1ecc10544957ac46672c53aee95f5b0a4c6fb6845ad395d
+    home: https://www.opennetworking.org/voltha
+    icon: https://guide.opencord.org/logos/voltha.svg
+    keywords:
+    - onf
+    - voltha
+    - sadis
+    - bbsim
+    maintainers:
+    - email: info@opennetworking.org
+      name: Open Networking Foundation
+      url: https://www.opennetworking.org
+    name: bbsim-sadis-server
+    sources:
+    - https://github.com/opencord/bbsim-sadis-server
+    urls:
+    - https://github.com/wafi981/opencord/docs/bbsim-sadis-server-0.3.2.tgz
+    version: 0.3.2
+  cassandra:
+  - apiVersion: v1
+    appVersion: 3.11.6
+    created: "2023-02-15T12:48:34.953012449Z"
+    deprecated: true
+    description: DEPRECATED Apache Cassandra is a free and open-source distributed
+      database management system designed to handle large amounts of data across many
+      commodity servers, providing high availability with no single point of failure.
+    digest: dd202910c6c676b95a9b3702e3c452c829857aec4cfd5fe965ea1790391b29e6
+    home: http://cassandra.apache.org
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    name: cassandra
+    urls:
+    - https://github.com/wafi981/opencord/docs/cassandra-0.15.4.tgz
+    version: 0.15.4
+  cdn-local:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:34.953755633Z"
+    description: A Helm chart for M-CORD CDN Services in Local Edge
+    digest: dbbc14255bb22cc1474d9b7bfaa57d6d1b533448a38ed153fa784977f7ef28ac
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: cdn-local
+    urls:
+    - https://github.com/wafi981/opencord/docs/cdn-local-0.2.5.tgz
+    version: 0.2.5
+  cdn-remote:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-15T12:48:34.954213742Z"
+    description: A Helm chart for M-CORD CDN Services in Remote Edge
+    digest: 8ff7be16c647b7fc27107de8c82937d2c8c7868a0ca287981ddb2a981216bd53
+    name: cdn-remote
+    urls:
+    - https://github.com/wafi981/opencord/docs/cdn-remote-0.2.4.tgz
+    version: 0.2.4
+  comac:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:34.958942594Z"
+    dependencies:
+    - name: base-kubernetes
+      repository: https://charts.opencord.org
+      version: 1.2.1
+    - condition: mcord-services.enabled
+      name: mcord-services
+      repository: https://charts.opencord.org
+      version: 1.1.8
+    - condition: seba-services.enabled
+      name: seba-services
+      repository: https://charts.opencord.org
+      version: 1.2.8
+    - alias: onos-progran
+      condition: mcord-services.progran.enabled
+      name: onos
+      repository: https://charts.opencord.org
+      version: 1.1.3
+    description: An umbrella Helm chart for deploying COMAC on CORD platform
+    digest: 1084ff8d5f9e9a8882814b4aa81cb997a75ab3b01f8362afe388302ebd0e6953
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: comac
+    urls:
+    - https://github.com/wafi981/opencord/docs/comac-1.0.0.tgz
+    version: 1.0.0
+  comac-cu:
+  - apiVersion: v1
+    appVersion: 0.1.1
+    created: "2023-02-15T12:48:34.959307875Z"
+    description: A Helm chart to install CU/BBU in COMAC
+    digest: 710d326c99a6f0a6ae80683d88697c265f4807db8300a87ddb36f40233c79b39
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: comac-cu
+    urls:
+    - https://github.com/wafi981/opencord/docs/comac-cu-0.1.1.tgz
+    version: 0.1.1
+  comac-platform:
+  - apiVersion: v1
+    appVersion: 0.0.17
+    created: "2023-02-15T12:48:34.968437668Z"
+    dependencies:
+    - condition: profile.comac.enabled
+      name: comac
+      repository: https://charts.opencord.org
+      version: 0.0.7
+    - condition: profile.base-kubernetes.enabled
+      name: base-kubernetes
+      repository: https://charts.opencord.org
+      version: 1.2.1
+    description: A Helm chart to install the COMAC profile on top of the CORD-Platform
+    digest: b001cf981c764549d4af67c90cddb31ad034feccdb2a5a32da8d3cf0c07678eb
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: comac-platform
+    urls:
+    - https://github.com/wafi981/opencord/docs/comac-platform-0.0.17.tgz
+    version: 0.0.17
+  cord-platform:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:34.988569822Z"
+    dependencies:
+    - condition: etcd-operator.enabled
+      name: etcd-operator
+      repository: https://kubernetes-charts.storage.googleapis.com
+      version: 0.8.3
+    - name: kafka
+      repository: https://kubernetes-charts-incubator.storage.googleapis.com
+      tags:
+      - central
+      - edge
+      version: 0.13.3
+    - name: onos
+      repository: https://charts.opencord.org
+      tags:
+      - edge
+      version: 1.1.4
+    - name: xos-core
+      repository: https://charts.opencord.org
+      tags:
+      - central
+      version: 3.0.12
+    - condition: logging.enabled
+      name: logging
+      repository: https://charts.opencord.org
+      tags:
+      - central
+      - edge
+      version: 1.1.0
+    - condition: nem-monitoring.enabled
+      name: nem-monitoring
+      repository: https://charts.opencord.org
+      tags:
+      - central
+      - edge
+      version: 1.3.0
+    description: A Helm chart to install the CORD platform
+    digest: 1bcd40b8f98becbb5a135ebdc81f7631d9d8eea4067a75b7c233592939b0370c
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: cord-platform
+    urls:
+    - https://github.com/wafi981/opencord/docs/cord-platform-7.2.3.tgz
+    version: 7.2.3
+  demo-exampleservice:
+  - apiVersion: v1
+    appVersion: 1.3.0
+    created: "2023-02-15T12:48:34.989511446Z"
+    dependencies:
+    - name: exampleservice
+      repository: https://charts.opencord.org
+      version: 2.2.4
+    - name: addressmanager
+      repository: https://charts.opencord.org
+      version: 2.0.4
+    description: A Helm chart that launches and configures ExampleService. It's assumed
+      that base-kubernetes profile is installed.
+    digest: 123ba20b4e44f90144fb1abb89615156530b2d65a7d13345ceef5668be003e07
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: demo-exampleservice
+    urls:
+    - https://github.com/wafi981/opencord/docs/demo-exampleservice-1.1.3.tgz
+    version: 1.1.3
+  demo-simpleexampleservice:
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2023-02-15T12:48:34.990138935Z"
+    dependencies:
+    - name: simpleexampleservice
+      repository: file://../../xos-services/simpleexampleservice
+      version: 1.2.4
+    description: A Helm chart that launches and configures SimpleExampleService. It's
+      assumed that base-kubernetes profile is installed.
+    digest: e37d65cfc5686fd7ad47be6485d249200ff158d8735ea539f548d2e6c4d9a156
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: demo-simpleexampleservice
+    urls:
+    - https://github.com/wafi981/opencord/docs/demo-simpleexampleservice-1.2.4.tgz
+    version: 1.2.4
+  dhcp-server:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2023-02-15T12:48:34.990350574Z"
+    digest: 3111b00076fc0f24b16f95d5e6d7d7fc589c8ff6a6c68fee6788beefd2194f9e
+    name: dhcp-server
+    urls:
+    - https://github.com/wafi981/opencord/docs/dhcp-server-1.0.2.tgz
+    version: 1.0.2
+  dt-workflow:
+  - apiVersion: v1
+    appVersion: 1.3.1
+    created: "2023-02-15T12:48:34.991043561Z"
+    dependencies:
+    - name: dt-workflow-driver
+      repository: https://charts.opencord.org
+      version: 2.0.0
+    description: A Helm chart for XOS's "dt-workflow"
+    digest: b5d1711c5bc46c47073169c2851f22cc4d1169528d161d785e52137be8529974
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: dt-workflow
+    urls:
+    - https://github.com/wafi981/opencord/docs/dt-workflow-2.0.0.tgz
+    version: 2.0.0
+  dt-workflow-driver:
+  - apiVersion: v1
+    appVersion: 2.0.1
+    created: "2023-02-15T12:48:34.991415434Z"
+    description: A Helm chart for XOS's "dt-workflow-driver" service
+    digest: c1be564890d3d19ee146901604fc19459feba641210ce9f82873e30c793caa2a
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: dt-workflow-driver
+    urls:
+    - https://github.com/wafi981/opencord/docs/dt-workflow-driver-2.0.2.tgz
+    version: 2.0.2
+  elasticsearch:
+  - apiVersion: v1
+    appVersion: 6.4.2
+    created: "2023-02-15T12:48:34.992480903Z"
+    deprecated: true
+    description: DEPRECATED Flexible and powerful open source, distributed real-time
+      search and analytics engine.
+    digest: 604eecc7cabbd9f06b354a447f845a2c37f11a57b83a8bd1cb9b058909eb7c3b
+    home: https://www.elastic.co/products/elasticsearch
+    icon: https://static-www.elastic.co/assets/blteb1c97719574938d/logo-elastic-elasticsearch-lt.svg
+    name: elasticsearch
+    sources:
+    - https://www.elastic.co/products/elasticsearch
+    - https://github.com/jetstack/elasticsearch-pet
+    - https://github.com/giantswarm/kubernetes-elastic-stack
+    - https://github.com/GoogleCloudPlatform/elasticsearch-docker
+    - https://github.com/clockworksoul/helm-elasticsearch
+    - https://github.com/pires/kubernetes-elasticsearch-cluster
+    urls:
+    - https://github.com/wafi981/opencord/docs/elasticsearch-1.10.2.tgz
+    version: 1.10.2
+  epc-service:
+  - apiVersion: v1
+    appVersion: 1.1.3
+    created: "2023-02-15T12:48:34.99283168Z"
+    description: A Helm chart for XOS's "epc-service" service
+    digest: ca6ecc6bd64c4e7f0f84167af430f9a305d1903bc20548f467047b2bd6a74185
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: epc-service
+    urls:
+    - https://github.com/wafi981/opencord/docs/epc-service-1.1.5.tgz
+    version: 1.1.5
+  etcd-cluster:
+  - apiVersion: v1
+    appVersion: 0.9.2
+    created: "2023-02-15T12:48:34.994737346Z"
+    description: Create an etcd-cluster using etcd-operator provided CRD
+    digest: 9244d8c6667f923b1f66fa3e231d58d5e6ea22c1d3b5070e928ef42729193461
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: etcd-cluster
+    urls:
+    - https://github.com/wafi981/opencord/docs/etcd-cluster-0.1.3.tgz
+    version: 0.1.3
+  exampleservice:
+  - apiVersion: v1
+    appVersion: 2.2.4
+    created: "2023-02-15T12:48:34.99551944Z"
+    description: A Helm chart for XOS's "exampleservice" service
+    digest: a7629a06f2faffded85573b083edc5db348956cab0b1a25ea47bc3af6b826174
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: exampleservice
+    urls:
+    - https://github.com/wafi981/opencord/docs/exampleservice-2.2.6.tgz
+    version: 2.2.6
+  fabric:
+  - apiVersion: v1
+    appVersion: 3.0.0
+    created: "2023-02-15T12:48:34.99592071Z"
+    description: A Helm chart for XOS's "fabric" service
+    digest: 61be890cb6c7948e07d62af9203ec84ef5d329f6738acb896826a3c339c3cc2a
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: fabric
+    urls:
+    - https://github.com/wafi981/opencord/docs/fabric-3.0.1.tgz
+    version: 3.0.1
+  fabric-crossconnect:
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2023-02-15T12:48:34.996306604Z"
+    description: A Helm chart for XOS's "fabric-crossconnect" service
+    digest: fe3306856d2c7b00500931979fb1795980955174848d12af8832b777e31ef0ec
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: fabric-crossconnect
+    urls:
+    - https://github.com/wafi981/opencord/docs/fabric-crossconnect-2.0.1.tgz
+    version: 2.0.1
+  freeradius:
+  - apiVersion: v1
+    appVersion: 3.0.21
+    created: "2023-02-15T12:48:34.996740817Z"
+    description: A Helm chart to deploy an example RADIUS server
+    digest: 48f4d447fa59fc29faafdd92e9206dfd8c8da3cafefe6eb81a5343af6dfeeb27
+    home: https://www.opennetworking.org/voltha
+    icon: https://guide.opencord.org/logos/voltha.svg
+    keywords:
+    - onf
+    - radius
+    - voltha
+    maintainers:
+    - email: info@opennetworking.org
+      name: Open Networking Foundation
+      url: https://www.opennetworking.org
+    name: freeradius
+    urls:
+    - https://github.com/wafi981/opencord/docs/freeradius-1.0.4.tgz
+    version: 1.0.4
+  gocd:
+  - apiVersion: v1
+    appVersion: 18.3.0
+    created: "2023-02-15T12:48:34.998244905Z"
+    description: GoCD is an open-source continuous delivery server to model and visualize
+      complex workflows with ease.
+    digest: 4bd84a717324847b1694d7f5d1cb2e036b81d447121d3b15681498bbb5c83d81
+    home: https://www.gocd.org/
+    icon: https://gocd.github.io/assets/images/go-icon-black-192x192.png
+    keywords:
+    - gocd
+    - ci
+    - cd
+    - ci/cd
+    - continuous-integration
+    - continuous-delivery
+    - continuous-deployment
+    - continuous-testing
+    maintainers:
+    - email: arvind@thoughtworks.com
+      name: arvindsv
+    - email: ganeshpl@thoughtworks.com
+      name: ganeshspatil
+    - email: varshasvaradarajan@gmail.com
+      name: varshavaradarajan
+    name: gocd
+    sources:
+    - https://github.com/gocd/gocd
+    urls:
+    - https://github.com/wafi981/opencord/docs/gocd-1.0.7.tgz
+    version: 1.0.7
+  google-phylo:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:34.999050848Z"
+    description: Google Video Analytics Application for Aether
+    digest: 0a6819a2dd697c022d240dc486059b8e06ab697ed29c9adcf9df579c4330e68f
+    name: google-phylo
+    urls:
+    - https://github.com/wafi981/opencord/docs/google-phylo-0.1.1.tgz
+    version: 0.1.1
+  hippie-oss:
+  - apiVersion: v1
+    appVersion: 1.1.3
+    created: "2023-02-15T12:48:34.999501123Z"
+    description: A Helm chart for XOS's "hippie-oss" service
+    digest: 83d128b76ec666e65f3b47d919ef4f6582cd42c72384dda6a407faeca9e8b638
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: hippie-oss
+    urls:
+    - https://github.com/wafi981/opencord/docs/hippie-oss-1.1.5.tgz
+    version: 1.1.5
+  hoverfly:
+  - apiVersion: v1
+    appVersion: 1.1.1
+    created: "2023-02-15T12:48:35.000351597Z"
+    deprecated: true
+    description: DEPRECATED Hoverfly is a lightweight, open source API simulation
+      tool. Using Hoverfly, you can create realistic simulations of the APIs your
+      application depends on.
+    digest: 064189db07d1e3c2f49cf70bcc0ec1030d5f8bdc84c60105d3ccd753cfaab42d
+    home: https://hoverfly.io
+    keywords:
+    - hoverfly
+    - api-simulation
+    - mocking
+    - stubbing
+    - service-virtualization
+    name: hoverfly
+    sources:
+    - https://github.com/SpectoLabs/hoverfly
+    urls:
+    - https://github.com/wafi981/opencord/docs/hoverfly-0.1.4.tgz
+    version: 0.1.4
+  hssdb:
+  - apiVersion: v1
+    appVersion: 1.0.2
+    created: "2023-02-15T12:48:35.000826139Z"
+    description: A Helm chart for XOS's "hssdb" service
+    digest: 4391b359c5faccd81c40f25fd302c47e940f805dde284af17767c4b930abcb2e
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: hssdb
+    urls:
+    - https://github.com/wafi981/opencord/docs/hssdb-1.0.4.tgz
+    version: 1.0.4
+  infosys-deepstream:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:35.001288608Z"
+    description: Infosys deepstream application for Aether
+    digest: 720bc6929edd57473b855f3412569023c3bf4821f8e0defcac61dfb43837b9e6
+    name: infosys-deepstream
+    urls:
+    - https://github.com/wafi981/opencord/docs/infosys-deepstream-0.1.0.tgz
+    version: 0.1.0
+  internetemulator:
+  - apiVersion: v1
+    appVersion: 1.0.2
+    created: "2023-02-15T12:48:35.00170572Z"
+    description: A Helm chart for XOS's "internetemulator" service
+    digest: 11f2472a0fd211a6ed426130ff66fa54b6d15ccc74fbd8bc365169fff60ed07a
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: internetemulator
+    urls:
+    - https://github.com/wafi981/opencord/docs/internetemulator-1.0.4.tgz
+    version: 1.0.4
+  jaeger:
+  - apiVersion: v1
+    appVersion: 1.15.1
+    created: "2023-02-15T12:48:35.005631568Z"
+    dependencies:
+    - condition: provisionDataStore.cassandra
+      name: cassandra
+      repository: https://kubernetes-charts-incubator.storage.googleapis.com/
+      version: ^0.13.1
+    - condition: provisionDataStore.elasticsearch
+      name: elasticsearch
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^1.19.1
+    deprecated: true
+    description: A Jaeger Helm chart for Kubernetes
+    digest: e163abbee5cd39d6d2ed31543c89c0d33b34320595bb39ae4ea909aaf8b0115b
+    home: https://jaegertracing.io
+    icon: https://camo.githubusercontent.com/afa87494e0753b4b1f5719a2f35aa5263859dffb/687474703a2f2f6a61656765722e72656164746865646f63732e696f2f656e2f6c61746573742f696d616765732f6a61656765722d766563746f722e737667
+    keywords:
+    - jaeger
+    - opentracing
+    - tracing
+    - instrumentation
+    name: jaeger
+    sources:
+    - https://hub.docker.com/u/jaegertracing/
+    urls:
+    - https://github.com/wafi981/opencord/docs/jaeger-0.17.4.tgz
+    version: 0.17.4
+  k8sepcservice:
+  - apiVersion: v1
+    appVersion: 1.0.2
+    created: "2023-02-15T12:48:35.00606985Z"
+    description: A Helm chart for XOS's "k8sepcservice" service
+    digest: 5a308eee0935969617abe03c4bd4a194c0793c44515f89360eaf56844ee0d483
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: k8sepcservice
+    urls:
+    - https://github.com/wafi981/opencord/docs/k8sepcservice-1.0.4.tgz
+    version: 1.0.4
+  kafka-topic-exporter:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:35.006325536Z"
+    description: Kafka Topic Exporter
+    digest: d723cdcc752c6df0d986a24005e6dad6f57eae9c81f021b3dd5500f314fd1527
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: kafka-topic-exporter
+    urls:
+    - https://github.com/wafi981/opencord/docs/kafka-topic-exporter-1.0.1.tgz
+    version: 1.0.1
+  kafkacat:
+  - apiVersion: v1
+    appVersion: 4.1.2
+    created: "2023-02-15T12:48:35.006555926Z"
+    description: A Helm chart for kafkacat
+    digest: 4bdcafd998e4fb854a3ffcd9d6ed251e42f5b743aeeda393b37380161eef1016
+    icon: https://kafka.apache.org/images/logo.png
+    name: kafkacat
+    urls:
+    - https://github.com/wafi981/opencord/docs/kafkacat-1.0.3.tgz
+    version: 1.0.3
+  keycloak:
+  - apiVersion: v1
+    appVersion: 3.4.3.Final
+    created: "2023-02-15T12:48:35.00809556Z"
+    dependencies:
+    - condition: keycloak.persistence.deployPostgres
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 0.12.0
+    deprecated: true
+    description: Open Source Identity and Access Management For Modern Applications
+      and Services
+    digest: d0e78f9ce73a5e7967485490eec7998c30afbb82a55347726ca64f9338e05e73
+    home: http://www.keycloak.org/
+    icon: http://www.keycloak.org/resources/images/keycloak_logo_480x108.png
+    keywords:
+    - authentication
+    name: keycloak
+    sources:
+    - https://github.com/jboss-dockerfiles/keycloak
+    urls:
+    - https://github.com/wafi981/opencord/docs/keycloak-0.6.0.tgz
+    version: 0.6.0
+  kubernetes:
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2023-02-15T12:48:35.00842857Z"
+    description: A Helm chart for XOS's "kubernetes" service
+    digest: 7cb5dc704074b2b2efdd649ae9ea8b16758ac7c73b258226091f231e4c5decb3
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: kubernetes
+    urls:
+    - https://github.com/wafi981/opencord/docs/kubernetes-2.0.1.tgz
+    version: 2.0.1
+  local-provisioner:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:35.00880352Z"
+    description: local provisioner chart
+    digest: 47750dd3637eab81138596385813898a5acb9475744b698c9ec270bef14e7d14
+    keywords:
+    - storage
+    - local
+    name: local-provisioner
+    urls:
+    - https://github.com/wafi981/opencord/docs/local-provisioner-2.0.2.tgz
+    version: 2.0.2
+  logging:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:35.016366647Z"
+    dependencies:
+    - name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.10.1
+    - condition: kibana.enabled
+      name: kibana
+      repository: https://helm.elastic.co
+      version: 7.10.1
+    - condition: fluentd-elasticsearch.enabled
+      name: fluentd-elasticsearch
+      repository: https://kiwigrid.github.io
+      version: 9.6.2
+    - condition: logstash.enabled
+      name: logstash
+      repository: https://charts.helm.sh/stable
+      version: 1.4.2
+    description: Sets up log aggregation infrastructure in Kubernetes, with elasticstack
+      and kibana
+    digest: d4dbbe09076e8ee0cbde4b6a3b2f26bc67f2b7c26903819623fb4055f520234d
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: logging
+    urls:
+    - https://github.com/wafi981/opencord/docs/logging-1.1.2.tgz
+    version: 1.1.2
+  logstash:
+  - apiVersion: v1
+    appVersion: 6.4.2
+    created: "2023-02-15T12:48:35.017229848Z"
+    deprecated: true
+    description: DEPRECATED Logstash is an open source, server-side data processing
+      pipeline
+    digest: fc0c17678649a3e4f96baa584012fb8b60a802fca523a71d41aef758e18ed1b7
+    home: https://www.elastic.co/products/logstash
+    icon: https://www.elastic.co/assets/blt86e4472872eed314/logo-elastic-logstash-lt.svg
+    name: logstash
+    sources:
+    - https://www.docker.elastic.co
+    - https://www.elastic.co/guide/en/logstash/current/index.html
+    urls:
+    - https://github.com/wafi981/opencord/docs/logstash-0.9.6.tgz
+    version: 0.9.6
+  mavenrepo:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2023-02-15T12:48:35.017447235Z"
+    digest: e3d7fe00af8a216b9dc00a26b7a87cf218ef05243b5b5be67d83c7e411b93369
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: mavenrepo
+    urls:
+    - https://github.com/wafi981/opencord/docs/mavenrepo-1.0.2.tgz
+    version: 1.0.2
+  mcord:
+  - apiVersion: v1
+    appVersion: 1.3.0
+    created: "2023-02-15T12:48:35.018885789Z"
+    dependencies:
+    - condition: onos-service.enabled
+      name: onos-service
+      repository: file://../../xos-services/onos-service
+      version: 2.1.3
+    - condition: fabric.enabled
+      name: fabric
+      repository: file://../../xos-services/fabric
+      version: 2.2.2
+    - name: mcord-subscriber
+      repository: file://../../xos-services/mcord-subscriber
+      version: 2.0.5
+    - condition: progran.enabled
+      name: progran
+      repository: file://../../xos-services/progran
+      version: 2.0.7
+    - name: vrouter
+      repository: file://../../xos-services/vrouter
+      version: 2.1.0
+    description: A Helm chart for the "mcord" profile
+    digest: b0d877232ecc5865fa761a1778141776539257cc93ead3c5d20102c5f5361482
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: mcord
+    urls:
+    - https://github.com/wafi981/opencord/docs/mcord-1.1.8.tgz
+    version: 1.1.8
+  mcord-bbu:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-15T12:48:35.019283897Z"
+    description: A Helm chart for MCORD BBU Services
+    digest: fc565b9c06d67ce1a73b8636654c9bf1e6a3613a58169a0c7ec83040f70a3a7c
+    name: mcord-bbu
+    urls:
+    - https://github.com/wafi981/opencord/docs/mcord-bbu-0.2.4.tgz
+    version: 0.2.4
+  mcord-cdn-local:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-15T12:48:35.019767453Z"
+    description: A Helm chart for MCORD CDN Services in Local Edge
+    digest: e3f4417727cc0891cbf63c18e4e6719f0cbe5e677f2554b2ea6678abd721e651
+    name: mcord-cdn-local
+    urls:
+    - https://github.com/wafi981/opencord/docs/mcord-cdn-local-0.1.6.tgz
+    version: 0.1.6
+  mcord-cdn-local-free:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-15T12:48:35.020250572Z"
+    description: A Helm chart for MCORD CDN Services in Local Edge for free (w/o wowza)
+    digest: 28d011557b06735d6f9a2d651c3666a2d58924e23d8ad2db9ff2e0b6580a482f
+    name: mcord-cdn-local-free
+    urls:
+    - https://github.com/wafi981/opencord/docs/mcord-cdn-local-free-0.1.4.tgz
+    version: 0.1.4
+  mcord-cdn-monitoring:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-15T12:48:35.02156505Z"
+    description: A Helm chart for Time Series Storage and Dashboard for CDN monitoring
+    digest: 30cf510e354614769d10cde436d86f5f04ba610c7953c0085734dc36de041849
+    name: mcord-cdn-monitoring
+    urls:
+    - https://github.com/wafi981/opencord/docs/mcord-cdn-monitoring-0.1.0.tgz
+    version: 0.1.0
+  mcord-cdn-remote:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-15T12:48:35.022546424Z"
+    description: A Helm chart for MCORD CDN Services in Remote cloud
+    digest: f11cc0f74c7c8819702104bd497e551cb69febd432c82d6fb310ebdb994c1f6f
+    name: mcord-cdn-remote
+    urls:
+    - https://github.com/wafi981/opencord/docs/mcord-cdn-remote-0.1.6.tgz
+    version: 0.1.6
+  mcord-cdn-remote-free:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-15T12:48:35.022868092Z"
+    description: A Helm chart for MCORD CDN Services in Remote cloud for free (w/o
+      WOWZA)
+    digest: 147ad5c906d1509a817e8b26e4cdf2d317f52730a173b786bc61ec49c23c62a5
+    name: mcord-cdn-remote-free
+    urls:
+    - https://github.com/wafi981/opencord/docs/mcord-cdn-remote-free-0.1.3.tgz
+    version: 0.1.3
+  mcord-control-plane:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-15T12:48:35.023812747Z"
+    description: A Helm chart for MCORD Control Plane Services
+    digest: b5d22f532b4237a8aefcf473674d3c82b11b6e9ef0256bef2f74a9740f8fd9e4
+    name: mcord-control-plane
+    urls:
+    - https://github.com/wafi981/opencord/docs/mcord-control-plane-0.2.2.tgz
+    version: 0.2.2
+  mcord-data-plane:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-15T12:48:35.024323784Z"
+    description: A Helm chart for MCORD Data Plane Services
+    digest: 84dc3fcb3ccd9538f89ed1efd1f3fe76f6bc29db511b74e136981be381ee9225
+    name: mcord-data-plane
+    urls:
+    - https://github.com/wafi981/opencord/docs/mcord-data-plane-0.3.1.tgz
+    version: 0.3.1
+  mcord-services:
+  - apiVersion: v1
+    appVersion: 1.3.1
+    created: "2023-02-15T12:48:35.025978058Z"
+    dependencies:
+    - name: mcord-subscriber
+      repository: https://charts.opencord.org
+      version: 2.0.5
+    - condition: fabric.enabled, progran.enabled
+      name: onos-service
+      repository: https://charts.opencord.org
+      version: 2.1.3
+    - condition: fabric.enabled
+      name: fabric
+      repository: https://charts.opencord.org
+      version: 2.2.2
+    - condition: fabric.enabled
+      name: vrouter
+      repository: https://charts.opencord.org
+      version: 2.1.0
+    - condition: progran.enabled
+      name: progran
+      repository: https://charts.opencord.org
+      version: 2.0.8
+    description: A Helm chart for the "mcord-services" profile
+    digest: 208352d8e1387ae0e865730e09f2dd590a836f5c48067a66afa25b22afc0ea0e
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: mcord-services
+    urls:
+    - https://github.com/wafi981/opencord/docs/mcord-services-1.1.10.tgz
+    version: 1.1.10
+  mcord-setup:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-15T12:48:35.026279103Z"
+    description: The prerequisite setup of M-CORD
+    digest: a8ac5e39f33602b0462afbdcc7efd51cdcc15d2bfb9bcce6cb4e16bf1683597d
+    name: mcord-setup
+    urls:
+    - https://github.com/wafi981/opencord/docs/mcord-setup-0.1.4.tgz
+    version: 0.1.4
+  mcord-subscriber:
+  - apiVersion: v1
+    appVersion: 2.0.5
+    created: "2023-02-15T12:48:35.026616434Z"
+    description: A Helm chart that creates a subscriber for the "mcord" service
+    digest: 62b358b6682f117299f94e686d9f3a337113ff4c8fd152842c0caf977555d269
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: mcord-subscriber
+    urls:
+    - https://github.com/wafi981/opencord/docs/mcord-subscriber-2.0.6.tgz
+    version: 2.0.6
+  mininet:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2023-02-15T12:48:35.027180159Z"
+    description: A Helm chart for Mininet
+    digest: 92267e130a1667969a89a0525ed6379f2d13893f9e81c20157d910f3ac1f0af0
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: mininet
+    urls:
+    - https://github.com/wafi981/opencord/docs/mininet-1.2.2.tgz
+    version: 1.2.2
+  nem-monitoring:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:35.039056856Z"
+    dependencies:
+    - name: prometheus
+      repository: https://charts.helm.sh/stable
+      version: 9.3.1
+    - name: grafana
+      repository: https://charts.helm.sh/stable
+      version: 4.0.2
+    description: Time Series Storage and Dashboard for CORD
+    digest: da1ec9272d616d7a44a401812dbb712d6c26ad52c80e52075aa7d25609dc84ed
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: nem-monitoring
+    urls:
+    - https://github.com/wafi981/opencord/docs/nem-monitoring-1.3.22.tgz
+    version: 1.3.22
+  oaisim:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-15T12:48:35.039629705Z"
+    description: openairinterface5g eNB and UE
+    digest: af906284d01802a0d589bd0d58aa41b5f3fcf6549ed8e70196f904caef9d52e6
+    name: oaisim
+    urls:
+    - https://github.com/wafi981/opencord/docs/oaisim-0.1.7.tgz
+    version: 0.1.7
+  olt-service:
+  - apiVersion: v1
+    appVersion: 2.2.1
+    created: "2023-02-15T12:48:35.039933315Z"
+    description: A Helm chart for XOS's "olt-service" service
+    digest: 2ea022c6d01e99c7f68f34accd0f44191a208b736e3a9c441e771a8ec97a27c6
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: olt-service
+    urls:
+    - https://github.com/wafi981/opencord/docs/olt-service-2.2.1.tgz
+    version: 2.2.1
+  omec-control-plane:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:35.043637116Z"
+    dependencies:
+    - condition: cassandra.deploy
+      name: cassandra
+      repository: https://kubernetes-charts-incubator.storage.googleapis.com/
+      version: 0.13.1
+    description: OMEC control plane services
+    digest: fbdc95804e46239069840d560004fc99ffd6e9fe6c3a67154025fea949c32de7
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: omec-control-plane
+    urls:
+    - https://github.com/wafi981/opencord/docs/omec-control-plane-0.1.31.tgz
+    version: 0.1.31
+  omec-data-plane:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:35.044179838Z"
+    description: OMEC data plane services
+    digest: d671f132923092358b931f8931c0d396fbb7013882ad33851ee00b7521bc9ec0
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: omec-data-plane
+    urls:
+    - https://github.com/wafi981/opencord/docs/omec-data-plane-0.1.13.tgz
+    version: 0.1.13
+  omec-data-plane-cni:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:35.044843212Z"
+    description: CNI setup for OMEC data plane
+    digest: d99a1f22286bd6a87b2b95efded881f223b7b4cd674af8312cf256ae21bf5bcd
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: omec-data-plane-cni
+    urls:
+    - https://github.com/wafi981/opencord/docs/omec-data-plane-cni-1.0.2.tgz
+    version: 1.0.2
+  omec-user-plane:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:35.045404109Z"
+    description: OMEC user plane based on BESS
+    digest: f90cd5800a7422d4bd1468cf97d85d6e5ca53aa2b0d5352d4bd3f1fcf03211e7
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: omec-user-plane
+    urls:
+    - https://github.com/wafi981/opencord/docs/omec-user-plane-0.1.5.tgz
+    version: 0.1.5
+  onos:
+  - apiVersion: v1
+    appVersion: 2.2.1
+    created: "2023-02-15T12:48:35.045884279Z"
+    description: Open Network Operating System
+    digest: 47ff62bb773166eb2295b22df72684aafbaab478547ff683ec676b335a906be5
+    icon: https://guide.opencord.org/logos/onos.svg
+    name: onos
+    urls:
+    - https://github.com/wafi981/opencord/docs/onos-3.0.2.tgz
+    version: 3.0.2
+  onos-progran:
+  - apiVersion: v1
+    appVersion: 0.1.8
+    created: "2023-02-15T12:48:35.046453525Z"
+    description: ONOS with progran APP
+    digest: d39a38900f918c232a68aea66fd2d9c7e2b94ac323648b097688442d0e837ad6
+    icon: https://guide.opencord.org/logos/onos.svg
+    name: onos-progran
+    urls:
+    - https://github.com/wafi981/opencord/docs/onos-progran-1.2.7.tgz
+    version: 1.2.7
+  onos-service:
+  - apiVersion: v1
+    appVersion: 3.0.0
+    created: "2023-02-15T12:48:35.046778333Z"
+    description: A Helm chart for XOS's "onos-service" service, which configures ONOS
+    digest: 624901d6a0ede322a06ae3f02adbec45e2e1de35a488e62332ed5f3787e5ff58
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: onos-service
+    urls:
+    - https://github.com/wafi981/opencord/docs/onos-service-3.0.1.tgz
+    version: 3.0.1
+  openstack:
+  - apiVersion: v1
+    appVersion: 1.1.5
+    created: "2023-02-15T12:48:35.04712958Z"
+    description: A Helm chart for XOS's "openstack" service
+    digest: 14d87255d984efd814f36f267925be7b728e749147216cc71870dda577cc82b2
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: openstack
+    urls:
+    - https://github.com/wafi981/opencord/docs/openstack-1.1.8.tgz
+    version: 1.1.8
+  ovsplugin:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:35.047331422Z"
+    digest: a888b805114db3bdf1253c0f7b47e9ce3902316f1e4927213f79c8a083da8c02
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: ovsplugin
+    urls:
+    - https://github.com/wafi981/opencord/docs/ovsplugin-1.0.2.tgz
+    version: 1.0.2
+  ponnet:
+  - apiVersion: v1
+    created: "2023-02-15T12:48:35.047584167Z"
+    digest: 86b40532c6475bd53a821ebcaed3cdf95a1530df7a8438dbe9cf4a7526ce3067
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: ponnet
+    urls:
+    - https://github.com/wafi981/opencord/docs/ponnet-1.2.3.tgz
+    version: 1.2.3
+  ponsim-pod:
+  - apiVersion: v1
+    appVersion: 1.3.1
+    created: "2023-02-15T12:48:35.048045999Z"
+    description: A Helm chart for loading the Ponsim pod's TOSCA files into XOS
+    digest: ca3653d0c877e051dcea70052e1cc290651990cd12fa00bd229fe73bae129b24
+    icon: https://guide.opencord.org/logos/xos.svg
+    name: ponsim-pod
+    urls:
+    - https://github.com/wafi981/opencord/docs/ponsim-pod-1.4.1.tgz
+    version: 1.4.1
+  ponsimv2:
+  - apiVersion: v1
+    appVersion: 1.7.0
+    created: "2023-02-15T12:48:35.048352944Z"
+    description: PON Simulator
+    digest: d098e8a6cbbbed9124ee7d6f87a526a8634b68286d6783ade15554b5538d5e1f
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: ponsimv2
+    urls:
+    - https://github.com/wafi981/opencord/docs/ponsimv2-1.2.3.tgz
+    version: 1.2.3
+  progran:
+  - apiVersion: v1
+    appVersion: 2.0.5
+    created: "2023-02-15T12:48:35.048653895Z"
+    description: A Helm chart for XOS's "progran" service
+    digest: 21f1376fdcf8310a09299e4bb1477b414cbe81465c8d7615a8a6c68264e851d6
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: progran
+    urls:
+    - https://github.com/wafi981/opencord/docs/progran-2.0.10.tgz
+    version: 2.0.10
+  rcord:
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2023-02-15T12:48:35.04894451Z"
+    description: A Helm chart for XOS's "rcord" service
+    digest: ef37a82242b10878842d796b27fce2e3c8814c336dca9ef9c35f8528bc3812be
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: rcord
+    urls:
+    - https://github.com/wafi981/opencord/docs/rcord-2.0.1.tgz
+    version: 2.0.1
+  rcord-lite:
+  - apiVersion: v1
+    appVersion: 1.3.0
+    created: "2023-02-15T12:48:35.053614319Z"
+    dependencies:
+    - name: rcord
+      repository: https://charts.opencord.org
+      version: 1.0.16
+    - name: onos-service
+      repository: https://charts.opencord.org
+      version: 2.1.3
+    - name: fabric
+      repository: https://charts.opencord.org
+      version: 2.2.2
+    - name: volt
+      repository: https://charts.opencord.org
+      version: 2.2.5
+    - name: vsg-hw
+      repository: https://charts.opencord.org
+      version: 1.1.0
+    - name: vrouter
+      repository: https://charts.opencord.org
+      version: 2.1.0
+    - name: sadis-server
+      repository: https://charts.opencord.org
+      version: 1.0.4
+    description: A Helm chart for XOS's "rcord-lite" profile
+    digest: 8b9cd5cc49a9496e0082b7b472483a6de47f4001db9854e363f5331b2cfb39e8
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: rcord-lite
+    urls:
+    - https://github.com/wafi981/opencord/docs/rcord-lite-1.1.8.tgz
+    version: 1.1.8
+  redis:
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 6.0.8
+    created: "2023-02-15T12:48:35.057881792Z"
+    description: Open source, advanced key-value store. It is often referred to as
+      a data structure server since keys can contain strings, hashes, lists, sets
+      and sorted sets.
+    digest: df4d30a6d22dcbfb4a9ac590464e898a54cdebb6c8eda268787c10a45bf9ed46
+    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    - http://redis.io/
+    urls:
+    - https://github.com/wafi981/opencord/docs/redis-11.1.0.tgz
+    version: 11.1.0
+  sadis-server:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2023-02-15T12:48:35.05821189Z"
+    digest: c4d090a827bab299cf4ce92dcd6ef7343c6ad78d398bf06cf580bd2bc18880f1
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: sadis-server
+    urls:
+    - https://github.com/wafi981/opencord/docs/sadis-server-1.0.6.tgz
+    version: 1.0.6
+  sdncontroller:
+  - apiVersion: v1
+    appVersion: 1.0.2
+    created: "2023-02-15T12:48:35.058820743Z"
+    description: A Helm chart for XOS's "sdncontroller" service
+    digest: d3f8ff4bd8d129e5689b693fa738273d2ec0b71ab66649c60d0eefd30d774877
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: sdncontroller
+    urls:
+    - https://github.com/wafi981/opencord/docs/sdncontroller-1.0.4.tgz
+    version: 1.0.4
+  seba:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2023-02-15T12:48:35.065301538Z"
+    dependencies:
+    - name: voltha
+      repository: https://charts.opencord.org
+      version: 1.0.3
+    - name: seba-services
+      repository: https://charts.opencord.org
+      version: 1.0.2
+    - name: base-kubernetes
+      repository: https://charts.opencord.org
+      version: 1.0.2
+    description: A Helm chart to install the SEBA profile on top of the CORD platform
+    digest: da0ede6083d9dd99ac485d5bb6db9325908a8b1bb3e993f9d9c0872fe87b8ed9
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: seba
+    urls:
+    - https://github.com/wafi981/opencord/docs/seba-1.0.0.tgz
+    version: 1.0.0
+  seba-services:
+  - apiVersion: v1
+    appVersion: 1.3.1
+    created: "2023-02-15T12:48:35.069140474Z"
+    dependencies:
+    - name: rcord
+      repository: https://charts.opencord.org
+      version: 2.0.0
+    - condition: onos-service.enabled
+      name: onos-service
+      repository: https://charts.opencord.org
+      version: 3.0.0
+    - condition: fabric.enabled
+      name: fabric
+      repository: https://charts.opencord.org
+      version: 3.0.0
+    - name: volt
+      repository: https://charts.opencord.org
+      version: 3.0.0
+    - condition: bng.external.enabled
+      name: fabric-crossconnect
+      repository: https://charts.opencord.org
+      version: 2.0.0
+    - condition: bng.embedded.enabled
+      name: vrouter
+      repository: https://charts.opencord.org
+      version: 3.0.0
+    - name: sadis-server
+      repository: https://charts.opencord.org
+      version: 1.0.4
+    description: A Helm chart for XOS's "SEBA" profile
+    digest: a6709b533a44f040a02c6317f02b7a381dcb6fbe90ea04bec6fb857742f10646
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: seba-services
+    urls:
+    - https://github.com/wafi981/opencord/docs/seba-services-2.0.0.tgz
+    version: 2.0.0
+  simpleexampleservice:
+  - apiVersion: v1
+    appVersion: 1.2.3
+    created: "2023-02-15T12:48:35.069746023Z"
+    description: A Helm chart for XOS's "simpleexampleservice" service
+    digest: 98728f9058889653724f49c2574ad2a90170d3bfd5b4817fc44def9a42747f91
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: simpleexampleservice
+    urls:
+    - https://github.com/wafi981/opencord/docs/simpleexampleservice-1.2.5.tgz
+    version: 1.2.5
+  spring-cloud-data-flow:
+  - apiVersion: v1
+    appVersion: 1.6.2.RELEASE
+    created: "2023-02-15T12:48:35.072456388Z"
+    dependencies:
+    - name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 0.3.4
+    - name: redis
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.1.11
+    - name: rabbitmq
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 0.6.16
+    deprecated: true
+    description: DEPRECATED Toolkit for building data processing pipelines.
+    digest: 1d2c9b10852f76bf373b0a32cd5cbaeac5932da04d9b8727affbcacdcb521467
+    home: http://cloud.spring.io/spring-cloud-dataflow/
+    name: spring-cloud-data-flow
+    sources:
+    - https://github.com/spring-cloud/spring-cloud-dataflow
+    - https://github.com/spring-cloud/spring-cloud-dataflow-server-kubernetes
+    - https://github.com/spring-cloud/spring-cloud-skipper
+    - https://github.com/spring-cloud/spring-cloud-dataflow-metrics-collector
+    urls:
+    - https://github.com/wafi981/opencord/docs/spring-cloud-data-flow-0.2.8.tgz
+    version: 0.2.8
+  tensorflow-inception:
+  - apiVersion: v1
+    appVersion: 1.4.0
+    created: "2023-02-15T12:48:35.074876849Z"
+    deprecated: true
+    description: DEPRECATED Open source software library for numerical computation
+      using data flow graphs.
+    digest: d9e3d0cd126d6753f8cef5d09f3e82fcf3a5c5956091b83d06860c1e5c319fdd
+    home: https://github.com/kubernetes/charts
+    icon: https://camo.githubusercontent.com/ee91ac3c9f5ad840ebf70b54284498fe0e6ddb92/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f7472616e73702e706e67
+    name: tensorflow-inception
+    sources:
+    - https://github.com/tensorflow/
+    - https://tensorflow.github.io/serving/serving_inception.html
+    urls:
+    - https://github.com/wafi981/opencord/docs/tensorflow-inception-0.4.3.tgz
+    version: 0.4.3
+  tt-workflow:
+  - apiVersion: v1
+    appVersion: 1.3.1
+    created: "2023-02-15T12:48:35.075491697Z"
+    dependencies:
+    - name: tt-workflow-driver
+      repository: https://charts.opencord.org
+      version: 1.0.0
+    description: A Helm chart for XOS's "tt-workflow"
+    digest: 2dfdb61f6c516a166890374e913de4ed8295767f46f45db46888949313dff7ff
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: tt-workflow
+    urls:
+    - https://github.com/wafi981/opencord/docs/tt-workflow-1.0.0.tgz
+    version: 1.0.0
+  tt-workflow-driver:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2023-02-15T12:48:35.075871852Z"
+    description: A Helm chart for XOS's "tt-workflow-driver" service
+    digest: 6ff65231728422d281921b5ef68b332b7cc4519d859aabbf9663dad4288cef73
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: tt-workflow-driver
+    urls:
+    - https://github.com/wafi981/opencord/docs/tt-workflow-driver-1.0.2.tgz
+    version: 1.0.2
+  ves-agent:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2023-02-15T12:48:35.076217389Z"
+    description: A Helm chart for Kubernetes
+    digest: 8782f34d22d6812080becab06e485e853baa23f0dada2e1405baec826b04bea0
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: ves-agent
+    urls:
+    - https://github.com/wafi981/opencord/docs/ves-agent-1.0.2.tgz
+    version: 1.0.2
+  vhss:
+  - apiVersion: v1
+    appVersion: 1.0.3
+    created: "2023-02-15T12:48:35.076676452Z"
+    description: A Helm chart for XOS's "vhss" service
+    digest: c58bf20e15a87596675a1ee625430d66cb098e531d48a3f5cc8daf4fce6cc841
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: vhss
+    urls:
+    - https://github.com/wafi981/opencord/docs/vhss-1.0.5.tgz
+    version: 1.0.5
+  vmme:
+  - apiVersion: v1
+    appVersion: 1.0.3
+    created: "2023-02-15T12:48:35.077082576Z"
+    description: A Helm chart for XOS's "vmme" service
+    digest: 526a9feb28c6d40b0d712b95d695010dd1330f8d7b36db0697b3bdbd3d4efcd6
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: vmme
+    urls:
+    - https://github.com/wafi981/opencord/docs/vmme-1.0.5.tgz
+    version: 1.0.5
+  volt:
+  - apiVersion: v1
+    appVersion: 3.0.0
+    created: "2023-02-15T12:48:35.077404798Z"
+    description: A Helm chart for XOS's "olt-service" service
+    digest: 759743a7ff4d3a32492bb3db6c4d6e25dcb4a5da1be669d05db352705140e722
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: volt
+    urls:
+    - https://github.com/wafi981/opencord/docs/volt-3.0.1.tgz
+    version: 3.0.1
+  voltha:
+  - apiVersion: v1
+    appVersion: "2.11"
+    created: "2023-02-15T12:48:35.078192518Z"
+    description: A Helm chart for Voltha based on K8S resources in Voltha project
+    digest: 2840d68ea45fac681b602d585ca3a64f865b9b1a5a36f9d2f4be0a51b380dd40
+    home: https://www.opennetworking.org/voltha
+    icon: https://guide.opencord.org/logos/voltha.svg
+    keywords:
+    - onf
+    - voltha
+    - core
+    - ofagent
+    maintainers:
+    - email: info@opennetworking.org
+      name: Open Networking Foundation
+      url: https://www.opennetworking.org
+    name: voltha
+    sources:
+    - https://github.com/opencord/voltha-go
+    - https://github.com/opencord/ofagent-go
+    urls:
+    - https://github.com/wafi981/opencord/docs/voltha-2.11.7.tgz
+    version: 2.11.7
+  voltha-adapter-openolt:
+  - apiVersion: v1
+    appVersion: 4.2.12
+    created: "2023-02-15T12:48:35.078915945Z"
+    description: A Helm chart for Voltha OpenOLT Adapter
+    digest: 567a7c2104a7b77f1b3ae429c29d2e28e789d56a4499231405f144fac1ece32a
+    home: https://www.opennetworking.org/voltha
+    icon: https://guide.opencord.org/logos/voltha.svg
+    keywords:
+    - onf
+    - voltha
+    - adapter
+    - olt
+    - open
+    maintainers:
+    - email: info@opennetworking.org
+      name: Open Networking Foundation
+      url: https://www.opennetworking.org
+    name: voltha-adapter-openolt
+    sources:
+    - https://github.com/opencord/voltha-openolt-adapter
+    urls:
+    - https://github.com/wafi981/opencord/docs/voltha-adapter-openolt-2.11.5.tgz
+    version: 2.11.5
+  voltha-adapter-openonu:
+  - apiVersion: v1
+    appVersion: 2.7.3
+    created: "2023-02-15T12:48:35.079626884Z"
+    description: A Helm chart for Voltha OpenONU Adapter
+    digest: b3894968eae756c1df3395db7d863160225364287a95ac793de442b4c8965ea9
+    home: https://www.opennetworking.org/voltha
+    icon: https://guide.opencord.org/logos/voltha.svg
+    keywords:
+    - onf
+    - voltha
+    - adapter
+    - onu
+    - open
+    maintainers:
+    - email: info@opennetworking.org
+      name: Open Networking Foundation
+      url: https://www.opennetworking.org
+    name: voltha-adapter-openonu
+    sources:
+    - https://github.com/opencord/voltha-openonu-adapter
+    urls:
+    - https://github.com/wafi981/opencord/docs/voltha-adapter-openonu-2.11.1.tgz
+    version: 2.11.1
+  voltha-adapter-simulated:
+  - apiVersion: v1
+    appVersion: "2.4"
+    created: "2023-02-15T12:48:35.080071223Z"
+    description: A Helm chart for Voltha Simulated Adapter
+    digest: 2f77c50cf8b98023fe41b2e0418a79f6b6e5ffdced3b6a6892bab95907c4c4bd
+    home: https://www.opennetworking.org/voltha
+    icon: https://guide.opencord.org/logos/voltha.svg
+    keywords:
+    - onf
+    - voltha
+    - adapter
+    - sim
+    - simulated
+    - open
+    maintainers:
+    - email: info@opennetworking.org
+      name: Open Networking Foundation
+      url: https://www.opennetworking.org
+    name: voltha-adapter-simulated
+    sources:
+    - https://github.com/opencord/voltha-simonu-adapter
+    - https://github.com/opencord/voltha-simolt-adapter
+    urls:
+    - https://github.com/wafi981/opencord/docs/voltha-adapter-simulated-2.3.2.tgz
+    version: 2.3.2
+  voltha-etcd-cluster:
+  - apiVersion: v1
+    appVersion: 0.9.2
+    created: "2023-02-15T12:48:35.080378127Z"
+    description: Create an etcd-cluster using etcd-operator provided CRD
+    digest: cdb620ea9822a7b4a2135524844fb4e6d3036d038cbf3988e27844e96774ad72
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: voltha-etcd-cluster
+    urls:
+    - https://github.com/wafi981/opencord/docs/voltha-etcd-cluster-2.2.0.tgz
+    version: 2.2.0
+  voltha-go-controller:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-02-15T12:48:35.080798718Z"
+    description: A Helm chart for Kubernetes
+    digest: 7d625934572f210655334db602db5216d3c288de23738b2610a069410748d122
+    name: voltha-go-controller
+    urls:
+    - https://github.com/wafi981/opencord/docs/voltha-go-controller-0.1.2.tgz
+    version: 0.1.2
+  voltha-infra:
+  - apiVersion: v2
+    appVersion: "2.11"
+    created: "2023-02-15T12:48:35.10860776Z"
+    dependencies:
+    - condition: onos-classic.enabled
+      name: onos-classic
+      repository: https://charts.onosproject.org
+      version: 0.1.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.0.10
+    - condition: bbsim-sadis-server.enabled
+      name: bbsim-sadis-server
+      repository: file://../bbsim-sadis-server
+      version: 0.3.2
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.5.11
+    - condition: kafka.enabled
+      name: kafka
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.0.2
+    - condition: radius.enabled
+      name: freeradius
+      repository: https://charts.opencord.org
+      version: 1.0.2
+    - condition: voltha-tracing.enabled
+      name: voltha-tracing
+      repository: https://charts.opencord.org
+      version: 1.0.0
+    - condition: efk.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.10.1
+    - condition: efk.enabled
+      name: kibana
+      repository: https://helm.elastic.co
+      version: 7.10.1
+    - condition: efk.enabled
+      name: fluentd-elasticsearch
+      repository: https://kiwigrid.github.io
+      version: 9.6.2
+    description: A Helm chart to install the required infrastructure for VOLTHA
+    digest: 3519fb5b8e2670c6a85001ec12cf27bec7bbaf30219ceee4a3fad2cd2c856fc1
+    home: https://www.opennetworking.org/voltha
+    icon: https://guide.opencord.org/logos/voltha.svg
+    keywords:
+    - onf
+    - voltha
+    - onos
+    - radius
+    - sadis-server
+    maintainers:
+    - email: info@opennetworking.org
+      name: Open Networking Foundation
+      url: https://www.opennetworking.org
+    name: voltha-infra
+    urls:
+    - https://github.com/wafi981/opencord/docs/voltha-infra-2.11.0.tgz
+    version: 2.11.0
+  voltha-kafka-dump:
+  - apiVersion: v1
+    appVersion: 6.1.3
+    created: "2023-02-15T12:48:35.108871805Z"
+    description: A Helm chart for voltha-kafka-dump
+    digest: d63e5b5b0b7f5c33d66f5bafc9157357662a238bc5d3511c14722882813cd8de
+    icon: https://kafka.apache.org/images/logo.png
+    name: voltha-kafka-dump
+    urls:
+    - https://github.com/wafi981/opencord/docs/voltha-kafka-dump-1.0.4.tgz
+    version: 1.0.4
+  voltha-stack:
+  - apiVersion: v2
+    appVersion: "2.11"
+    created: "2023-02-15T12:48:35.111909269Z"
+    dependencies:
+    - condition: voltha.enabled
+      name: voltha
+      repository: file://../voltha
+      version: 2.11.7
+    - condition: voltha-adapter-openonu.enabled
+      name: voltha-adapter-openonu
+      repository: file://../voltha-adapter-openonu
+      version: 2.11.1
+    - condition: voltha-adapter-openolt.enabled
+      name: voltha-adapter-openolt
+      repository: file://../voltha-adapter-openolt
+      version: 2.11.5
+    - condition: voltha-go-controller.enabled
+      name: voltha-go-controller
+      repository: file://../voltha-go-controller
+      version: 0.1.2
+    description: A Helm chart to install a VOLTHA stack on existing infrastructure
+    digest: 0dc3c4c37b5ae394172e9829168248bad47eb1bf8e5869f26f75dd4b82dadb68
+    home: https://www.opennetworking.org/voltha
+    icon: https://guide.opencord.org/logos/voltha.svg
+    keywords:
+    - onf
+    - voltha
+    - openolt-adapters
+    - openonu-adapters
+    maintainers:
+    - email: info@opennetworking.org
+      name: Open Networking Foundation
+      url: https://www.opennetworking.org
+    name: voltha-stack
+    urls:
+    - https://github.com/wafi981/opencord/docs/voltha-stack-2.11.1.tgz
+    version: 2.11.1
+  voltha-tracing:
+  - apiVersion: v1
+    appVersion: "1.18"
+    created: "2023-02-15T12:48:35.112255151Z"
+    description: A Helm chart for deploying Jaeger all-in-one container for Trace
+      data collection and analysis
+    digest: c2c7e8d96825812cf911400a119672c9fe8bad25b40fe4a3d0b5ac66358cc45e
+    home: https://www.opennetworking.org/voltha
+    icon: https://guide.opencord.org/logos/cord.svg
+    keywords:
+    - onf
+    - voltha
+    - tracing
+    - opentracing
+    maintainers:
+    - email: info@opennetworking.org
+      name: Open Networking Foundation
+      url: https://www.opennetworking.org
+    name: voltha-tracing
+    sources:
+    - https://github.com/jaegertracing/jaeger-kubernetes/tree/master/all-in-one
+    - https://www.jaegertracing.io/docs/1.18/getting-started/#all-in-one
+    urls:
+    - https://github.com/wafi981/opencord/docs/voltha-tracing-1.0.2.tgz
+    version: 1.0.2
+  vrouter:
+  - apiVersion: v1
+    appVersion: 3.0.0
+    created: "2023-02-15T12:48:35.112567084Z"
+    description: A Helm chart for XOS's "vRouter" service
+    digest: aec2e5fc392f93ac7b28d8af4eecb0d04c298139c823f9541ee1092d9b7c72de
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: vrouter
+    urls:
+    - https://github.com/wafi981/opencord/docs/vrouter-3.0.1.tgz
+    version: 3.0.1
+  vsg-hw:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2023-02-15T12:48:35.112962453Z"
+    description: A Helm chart for XOS's "vsg-hw" service
+    digest: 865acbd69917fac8f1805413258b4d0e4b61282c0e7a72f27261a9d8848320b5
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: vsg-hw
+    urls:
+    - https://github.com/wafi981/opencord/docs/vsg-hw-1.1.2.tgz
+    version: 1.1.2
+  vspgwc:
+  - apiVersion: v1
+    appVersion: 1.0.2
+    created: "2023-02-15T12:48:35.113445146Z"
+    description: A Helm chart for XOS's "vspgwc" service
+    digest: 79d5ce81a6be65f70631ca35b59702d7f0f4014ea8234c67cc75467b10ef12a4
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: vspgwc
+    urls:
+    - https://github.com/wafi981/opencord/docs/vspgwc-1.0.4.tgz
+    version: 1.0.4
+  vspgwu:
+  - apiVersion: v1
+    appVersion: 1.0.2
+    created: "2023-02-15T12:48:35.113983021Z"
+    description: A Helm chart for XOS's "vspgwu" service
+    digest: 101c7015e0d28a5595517e4ddc34d07615703ce8e11ce7411078ce8c257aa654
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: vspgwu
+    urls:
+    - https://github.com/wafi981/opencord/docs/vspgwu-1.0.4.tgz
+    version: 1.0.4
+  vtn-service:
+  - apiVersion: v1
+    appVersion: 1.0.4
+    created: "2023-02-15T12:48:35.114368456Z"
+    description: A Helm chart for XOS's "vtn-service" service
+    digest: 34b4b8eb24c3512a29ba139053691e7ac3ddbb7b766326e14de162c6f934981f
+    icon: https://guide.opencord.org/logos/cord.svg
+    name: vtn-service
+    urls:
+    - https://github.com/wafi981/opencord/docs/vtn-service-1.0.6.tgz
+    version: 1.0.6
+  xos-core:
+  - apiVersion: v1
+    appVersion: 4.0.1
+    created: "2023-02-15T12:48:35.116405612Z"
+    dependencies:
+    - name: xos-db
+      repository: https://charts.opencord.org
+      version: 1.0.2
+    - condition: xos-gui.enabled
+      name: xos-gui
+      repository: https://charts.opencord.org
+      version: 1.2.7
+    description: XOS - An Extensible Cloud Operating System
+    digest: 10197606e7e022d08ca5110dde533bb6f15fa29b2b43e47ea5ddb2d2289d2d47
+    icon: https://guide.opencord.org/logos/xos.svg
+    name: xos-core
+    urls:
+    - https://github.com/wafi981/opencord/docs/xos-core-4.0.2.tgz
+    version: 4.0.2
+  xos-db:
+  - apiVersion: v1
+    appVersion: 10.3-alpine
+    created: "2023-02-15T12:48:35.116717778Z"
+    digest: be4e18f7d8621aa17cb88d5bdc25ce924e0ee1bfefd3966dc3139f5983ce1787
+    icon: https://www.postgresql.org/media/img/about/press/elephant.png
+    name: xos-db
+    urls:
+    - https://github.com/wafi981/opencord/docs/xos-db-1.0.4.tgz
+    version: 1.0.4
+  xos-gui:
+  - apiVersion: v1
+    appVersion: 1.0.6
+    created: "2023-02-15T12:48:35.117093705Z"
+    description: Web GUI for XOS
+    digest: 141faacb06999fc1200aa3117568be76fbdf6203d0c1df5a474a22301dd79c2c
+    icon: https://guide.opencord.org/logos/xos.svg
+    name: xos-gui
+    urls:
+    - https://github.com/wafi981/opencord/docs/xos-gui-1.2.9.tgz
+    version: 1.2.9
+  xos-tester:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2023-02-15T12:48:35.117382225Z"
+    description: A Helm chart to run tests against an XOS deployment
+    digest: 213a54b437c835dd5dde08031e31d5f10215271ce5aa040853cd46894dc3bc3a
+    icon: https://guide.opencord.org/logos/xos.svg
+    name: xos-tester
+    urls:
+    - https://github.com/wafi981/opencord/docs/xos-tester-1.0.2.tgz
+    version: 1.0.2
+  xossh:
+  - apiVersion: v1
+    appVersion: 4.0.1
+    created: "2023-02-15T12:48:35.120932604Z"
+    description: A Helm chart for xossh, the XOS command line shell
+    digest: bec94c51ef68eb4ea71d71ddd1032cc90927a752183ba48eeb20649c210569e2
+    icon: https://guide.opencord.org/logos/xos.svg
+    name: xossh
+    urls:
+    - https://github.com/wafi981/opencord/docs/xossh-3.0.4.tgz
+    version: 3.0.4
+generated: "2023-02-15T12:48:34.942525868Z"
